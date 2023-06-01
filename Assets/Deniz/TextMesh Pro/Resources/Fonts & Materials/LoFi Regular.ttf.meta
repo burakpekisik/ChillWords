@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: afa56dbd5ed5b114699d6f4d91871bd9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - LoFi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: aeb326c85e0ab094ab699338dd8d540a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

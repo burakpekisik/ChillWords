@@ -1,0 +1,26 @@
+// MainTemplate.gradle dosyasının içeriği
+apply plugin: 'com.android.application'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    // Diğer bağımlılıklarınız buraya ekleyebilirsiniz
+}
+
+sourceSets {
+    main {
+        assets.srcDirs += 'Resources/Data'
+    }
+}
+
+android {
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}

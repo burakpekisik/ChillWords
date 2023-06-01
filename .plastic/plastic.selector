@@ -1,0 +1,4 @@
+repository "Kelime Oyunu@Pekisik@cloud"
+  path "/"
+    br "/main"
+    co "/main"
